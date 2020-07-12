@@ -1,0 +1,26 @@
+In this assignment you will need to rely on the Ergast API once again.
+
+Things you will need:
+1. Form
+Your form will accept a year and a season number. The only years allowed should be within a 20 year range. The season numbers allowed should be between 1-20. The form will take your data and send an AJAX request to your server using the information you typed into your form to build the API link.
+
+2. Table
+The data table will consist of each driver's information.
+You will need to retrieve the driver's:
+- position
+- wins
+- full name (their name should be a link to their Wikipedia page)
+- nationality
+- full name (their name should like)
+- constructor name (their name should be a link to their Wikipedia page)
+
+Things to consider:
+1. Upon loading the page, you should not have any data showing in your table. In fact, you should not show a table at all if there's no data inside of it. Hide the table when the page loads and show a paragraph message instead saying 'Please search for a Season and Year to continue'
+2. Once you submit the form, you should hide the paragraph message and show the table with all of the data inside of it.
+3. Use only jQuery to perform your AJAX call.
+4. Use only ES6 to write your arrow functions, callback functions and variables. Show your understanding of let vs const IF you need to.
+
+ASSETS:
+API link: https://ergast.com/api/f1/2019/5/driverStandings.json
+
+**Some things were left vague on purpose. Do some research if you need help on learning how to do certain things with jQuery**
